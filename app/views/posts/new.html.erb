@@ -3,16 +3,16 @@
 <%= form_with :model => @post do |form| %>
   <p>
     <%= form.label "title" %>
-    <%= form.text_field "Post title" %>
+    <%= form.text_field "title" %>
   </p>
   <p>
     <%= form.label "description" %>
-    <%= form.text_field "Description" %>
+    <%= form.text_field "description" %>
   </p>
   
   <p>
     <%= form.label "posted_on" %>
-    <%= form.text_field "Date" %>
+    <%= form.text_field "posted_on" %>
   </p>
   
   <%= form.hidden_field "place_id" %>
